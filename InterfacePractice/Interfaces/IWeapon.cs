@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace InterfacePractice.Interfaces
 {
-    interface IWeapon : IRepairable, IUpgradeable
+    interface IWeapon : IRepairable, IUpgradeable, IReloadable
     {
     }
 }

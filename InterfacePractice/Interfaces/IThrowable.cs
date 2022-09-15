@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace InterfacePractice.Interfaces
 {
-    internal interface IThrowable
+    internal interface IThrowable : IRepairable, IUpgradeable
     {
     }
 }

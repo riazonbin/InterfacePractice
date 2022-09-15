@@ -6,7 +6,10 @@ using System.Threading.Tasks;
 
 namespace InterfacePractice.Interfaces
 {
-    internal interface IMelee
+    internal interface IMelee : IRepairable
     {
+        int Damage { get; set; }
+
+        void Hit();
     }
 }

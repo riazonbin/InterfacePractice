@@ -6,9 +6,7 @@ using System.Threading.Tasks;
 
 namespace InterfacePractice.Interfaces
 {
-    internal interface IRepairable
+    internal interface IReloadable
     {
-        int durability { get; set; }
-        void Repair();
     }
 }

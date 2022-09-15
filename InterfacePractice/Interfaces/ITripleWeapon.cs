@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace InterfacePractice.Interfaces
 {
-    internal interface ITripleWeapon
+    internal interface ITripleWeapon : IWeapon
     {
+        void MultiSoot();
     }
 }

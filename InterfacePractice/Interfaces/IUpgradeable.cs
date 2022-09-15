@@ -8,5 +8,7 @@ namespace InterfacePractice.Interfaces
 {
     internal interface IUpgradeable
     {
+
+        void Upgrade();
     }
 }
