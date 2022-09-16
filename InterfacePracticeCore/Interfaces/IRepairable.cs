@@ -4,9 +4,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace InterfacePractice.Interfaces
+namespace InterfacePracticeCore.Interfaces
 {
-    interface IWeapon : IRepairable, IUpgradeable, IReloadable
+    public interface IRepairable
     {
+        int Durability { get; set; }
+        void Repair();
     }
 }

@@ -8,7 +8,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Classes\" />
+    <ProjectReference Include="..\InterfacePracticeCore\InterfacePracticeCore.csproj" />
   </ItemGroup>
 
 </Project>

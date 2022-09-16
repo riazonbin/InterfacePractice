@@ -4,10 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace InterfacePractice.Interfaces
+namespace InterfacePracticeCore.Interfaces
 {
-    internal interface ITripleWeapon : IWeapon
+    public interface IUpgradeable
     {
-        void MultiSoot();
+        void Upgrade();
     }
 }

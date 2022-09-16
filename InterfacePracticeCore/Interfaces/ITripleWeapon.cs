@@ -4,11 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace InterfacePractice.Interfaces
+namespace InterfacePracticeCore.Interfaces
 {
-    internal interface IRepairable
+    public interface ITripleWeapon : IWeapon
     {
-        int durability { get; set; }
-        void Repair();
+        void MultiShoot();
     }
 }

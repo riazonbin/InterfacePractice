@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace InterfacePractice.Interfaces
+namespace InterfacePracticeCore.Interfaces
 {
-    internal interface IMelee : IRepairable
+    public interface IMelee : IRepairable, IUpgradeable
     {
         int Damage { get; set; }
 
